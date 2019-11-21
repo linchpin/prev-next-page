@@ -1,9 +1,8 @@
 === Linchpin - PrevNextPage ===
 Contributors: aware, linchpin_agency
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CH9GUS7UQ6SUN
 Tags: pages, next, previous, prev, presentations, traverse, loop, linchpin, utilities, pagination, simple, shortcode
 Requires at least: 3.0
-Tested up to: 3.4.1
+Tested up to: 5.3
 Stable tag: trunk
 
 Create sibling page links. Similar to next_post_link() & previous_post_link() but for pages. Great for utilizing Wordpress for Presentations or iterating through pages based on the "Menu Order"
@@ -32,7 +31,7 @@ Function Options
 *   'loop'			  => NULL,		// 'expand', 'loop'
 *   'getPagesQuery'	  => 'sort_column=menu_order&sort_order=asc',
 *   'link_class' 	  => '',		// class given to the anchor for styling or js library
-*   'link_id' 		  => '',		// id given to the anchor for styling or js reference 
+*   'link_id' 		  => '',		// id given to the anchor for styling or js reference
 *	'echo'			  => 'true',	//
 *   'direction'		  => '',		// 'next', 'prev'
 
